@@ -52,6 +52,7 @@ export const TodoList = () => {
           type="text"
           value={newTodoName}
           onChange={(e) => setNewTodoName(e.target.value)}
+          className="input_field"
         />
         <button>Add</button>
       </form>

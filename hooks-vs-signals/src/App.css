@@ -79,3 +79,23 @@
 .nav a {
   padding-right: 1rem;
 }
+
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+button{
+  color: white;
+}
+
+.input_field{
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;       /* Removes bullet points */
+  padding: 0;             /* Removes default padding */
+  margin: 0;              /* Removes default margin */
+}
