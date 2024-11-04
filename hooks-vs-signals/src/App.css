@@ -40,3 +40,42 @@
 .read-the-docs {
   color: #888;
 }
+
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+}
+
+.todo{
+  border: solid 1px white;
+  width: 50vw;
+  height: 80vh;
+}
+
+.sidebar{
+  border: solid 1px white;
+  width: 20vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar a{
+  margin-top: 1rem;
+}
+
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  border: solid 1px white;
+}
+
+.nav a {
+  padding-right: 1rem;
+}

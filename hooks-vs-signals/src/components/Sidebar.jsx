@@ -1,5 +1,6 @@
  
 export const Sidebar = () => {
+  console.log('Rendering Sidebar')
   return (
    <nav className="sidebar">
     <a href="/link1">Link 1</a>

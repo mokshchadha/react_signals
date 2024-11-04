@@ -7,12 +7,13 @@ function App() {
   console.log("Render App Component")
 
   return (
-   <div className="wrapper">
+   <div className="column">
     <Navbar/>
-    <main>
+    <main className='row'>
       <TodoList/>
+      <Sidebar/>
     </main>
-    <Sidebar/>
+    
    </div>
   )
 }
