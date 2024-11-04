@@ -3,7 +3,6 @@ import { LOCAL_STORAGE_KEY } from "./constants";
 
 function getTodoFromLocalStorage() {
   const value = localStorage.getItem(LOCAL_STORAGE_KEY);
-  console.log({ value });
   if (value == null) {
     return [];
   }

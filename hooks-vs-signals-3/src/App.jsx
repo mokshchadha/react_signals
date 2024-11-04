@@ -22,14 +22,12 @@ function App() {
   }
 
   function toggleTodo(id, isCompleted) {
-    console.log({ id, isCompleted });
     const newTodos = todos.value.map((todo) => {
       if (todo.id === id) {
         return { ...todo, isCompleted };
       }
       return todo;
     });
-    console.log({ newTodos });
     todos.value = [...newTodos];
   }
 
