@@ -61,7 +61,7 @@ export const TodoList = () => {
             <label htmlFor="">
               <input
                 type="checkbox"
-                checked={todo.completed}
+                checked={todo.isCompleted}
                 onChange={(e) => toggleTodo(todo.id, e.target.checked)}
               />
               {todo.name}
