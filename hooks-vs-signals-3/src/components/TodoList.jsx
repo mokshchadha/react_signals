@@ -1,16 +1,16 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
+import { todos } from "../signals";
 
-export const TodoList = ({ todos, addTodo, toggleTodo }) => {
+export const TodoList = ({ addTodo, toggleTodo }) => {
   console.log("Rendering Todo List");
   const [newTodoName, setNewTodoName] = useState("");
- 
 
   function handleSubmit(e) {
-    e.preventDefault()
+    e.preventDefault();
     if (!newTodoName.trim()) return;
-    addTodo(newTodoName)
-    setNewTodoName("")
+    addTodo(newTodoName);
+    setNewTodoName("");
   }
 
   return (
